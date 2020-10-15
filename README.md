@@ -1,1 +1,1 @@
-Netflix Clone Repository
+Netflix Clone Repo
