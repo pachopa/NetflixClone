@@ -9,7 +9,7 @@ describe("<Header />", () => {
     const { container, getByText, getByTestId } = render(
       <Header>
         <Header.Frame>
-          <Header.Logo src="/logo.svg" alt="NetFlix" />
+          <Header.Logo src="/logo.png" alt="NetFlix" />
           <Header.TextLink active="true">Hello I am a link!</Header.TextLink>
         </Header.Frame>
       </Header>
@@ -24,7 +24,7 @@ describe("<Header />", () => {
     const { container, getByText, queryByTestId } = render(
       <Header bg={false}>
         <Header.Frame>
-          <Header.Logo src="/logo.svg" alt="Netflix" />
+          <Header.Logo src="/logo.png" alt="Netflix" />
           <Header.ButtonLink>Sign In</Header.ButtonLink>
           <Header.TextLink active={false}>Hello I am a link!</Header.TextLink>
         </Header.Frame>
@@ -41,16 +41,16 @@ describe("<Header />", () => {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo src="/images/logo.svg" alt="Netflix" />
-            <Header.TextLink active={false} onClick={() => {}}>
+            <Header.Logo src="/images/logo.png" alt="Netflix" />
+            <Header.TextLink active={false} onClick={() => { }}>
               Series
             </Header.TextLink>
-            <Header.TextLink active={false} onClick={() => {}}>
+            <Header.TextLink active={false} onClick={() => { }}>
               Films
             </Header.TextLink>
           </Header.Group>
           <Header.Group>
-            <Header.Search searchTerm="Joker" setSearchTerm={() => {}} />
+            <Header.Search searchTerm="Joker" setSearchTerm={() => { }} />
             <Header.Profile>
               <Header.Picture src="/images/chris.png" />
               <Header.Dropdown>
@@ -59,7 +59,7 @@ describe("<Header />", () => {
                   <Header.TextLink>Chris Lee</Header.TextLink>
                 </Header.Group>
                 <Header.Group>
-                  <Header.TextLink onClick={() => {}}>Sign Out</Header.TextLink>
+                  <Header.TextLink onClick={() => { }}>Sign Out</Header.TextLink>
                 </Header.Group>
               </Header.Dropdown>
             </Header.Profile>
