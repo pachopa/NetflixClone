@@ -13,13 +13,13 @@ Browse page
 ![Create Post](https://github.com/pachopa/NetflixClone/blob/master/screenshots/Browse2.png)
 
 Main Page
-![Update Post](https://github.com/pachopa/reddit-clone/blob/master/screenshots/Main%20Page.png)
+![Update Post](https://github.com/pachopa/NetflixClone/blob/master/screenshots/Main%20Page.png)
 
 Sign in
-![GraphQL Explorer](https://github.com/pachopa/reddit-clone/blob/master/screenshots/Sign%20in.png)
+![GraphQL Explorer](https://github.com/pachopa/NetflixClone/blob/master/screenshots/Sign%20in.png)
 
 Test Coverage
-![GraphQL Schema](https://github.com/pachopa/reddit-clone/blob/master/screenshots/Test%20Coverage.png)
+![GraphQL Schema](https://github.com/pachopa/NetflixClone/blob/master/screenshots/Test%20Coverage.png)
 
 
 
