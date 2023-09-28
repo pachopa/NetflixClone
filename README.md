@@ -2,7 +2,7 @@
 
 ![Main Page](https://github.com/pachopa/NetflixClone/blob/master/screenshots/Browse.png)
 
-Front-end netflix clone built with React, Firebase, React Testing Library
+Front-end Netflix clone built with React, Firebase, React Testing Library
 ## Features
 - Compound and styled components
 - 100% unit test coverage
